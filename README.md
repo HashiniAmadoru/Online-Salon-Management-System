@@ -103,3 +103,81 @@ Admin Functions :-
 		• View the details of the Appointment
 
 		• View the details of the Customers comments
+		
+		
+
+Prerequisites
+
+	The Following are the prerequisites for Installation of online salon management system project on
+	localhost.
+
+	Web Server: XAMPP
+	Composer : 
+
+	Composer is the PHP Dependency Manager. For managing dependencies, Laravel uses composer.
+
+	Make sure you have a Composer installed on your system.
+		
+
+How to Install
+
+	Individual modules can be started or stopped on the XAMPP Control Panel through the corresponding buttons 
+	under ‘Actions’(Apache, MySQL).
+
+	Goes to “htdocs” folder in “C:\xampp” path and paste zipped source code file named as Salon.zip 
+	and Extract that zip file.
+
+	Go inside extracted folder. There include these file and folder list. 
+	Then open command prompt or PowerShell command
+
+	Then execute the command “composer install” 
+
+	This process can take several minutes and install dependencies to the project.
+
+	After successfully execute the command create new folder named 
+	as “vendor” and create new file “composer.lock” in the source code folder
+
+	Then need to configure database of the project. 
+	As a first step for its open browser and navigate to http://localhost/phpmyadmin/ link.
+
+	To create new database, need to go “Database” tab and give name(salon) 
+	for database space where in under “Create Database” space. 
+	Then click button “Create”. Then create database with that name(salon).
+
+	Then go inside of the database by clicking left menu list database name which created.
+
+	Then go to import tab and open file explorer to take SQL file (Click “Choose File”).
+	Navigate files inside source code select file with extension .sql and 
+	then go bottom-right of the page and click “go” button to import all data to your database.
+
+	As a first step open .env file and set database configuration details. 
+
+	Database Configuration
+
+	DB_DATABASE - name of the database which created on XAMPP phpMyAdmin
+	DB_USERNAME – get user name from XAMPP user account details
+	DB_PASSWORD - get password from XAMPP user account details related to taken username
+
+	Email Configuration (optional)
+
+	Can use here included mail credentials or create new credentials for user their own.
+	There needs secure app access on email address (Google not recommend it).
+
+	MAIL_USERNAME – email address
+	MAIL_PASSWORD – password of mail account
+	MAIL_FROM_ADDRESS – email address
+
+	Then File Explorer of opened folder. → File tab → Click on “Open Windows PowerShell” or “Open Command Prompt” and open.
+	Then execute the command “php artisan storage:link” to get storage file
+
+	After you can see “Storage” file in public folder.
+
+	Then File Explorer of opened folder. → File tab → Click on “Open Windows PowerShell” or “Command Prompt” and open.
+	Then execute the command “php artisan config:clear” to reset configuration details
+
+	As a final step need to execute command “php artisan serve” to run the service of the project.
+	There Laravel development server started host and port given as http://127.0.0.1:8000
+
+
+
+
