@@ -8,7 +8,7 @@ There are three types of users in the system, the system admin, salon owners and
 That was developed in PHP Laravel framework with Bootstrap, jQuery and JavaScript. MySQL was selected for the database of the system.
 
 
-Scope of the project :- That is developing for general purpose and to customer appointments of a salon in an effective way with the use of online system. Also, people can find out good cosmetic things. Because system explain details about good and new cosmetic things. There are three types of users in the system, the system admin, salon owners and customers.
+**Scope of the project** :- That is developing for general purpose and to customer appointments of a salon in an effective way with the use of online system. Also, people can find out good cosmetic things. Because system explain details about good and new cosmetic things. There are three types of users in the system, the system admin, salon owners and customers.
 
 
 		• Provide the facility to registration salon owners and maintaining their details.
@@ -35,7 +35,7 @@ Scope of the project :- That is developing for general purpose and to customer a
 
 
 
-Customer Functions : -
+>Customer Functions : -
 
 
 		• Registration to the system
@@ -60,7 +60,7 @@ Customer Functions : -
 
 
 
-Salon Owners Functions :- 
+>Salon Owners Functions :- 
 
 
 
@@ -85,7 +85,7 @@ Salon Owners Functions :-
 
 
 
-Admin Functions :- 
+>Admin Functions :- 
 
 
 		• Manage the all details of the system
@@ -106,7 +106,7 @@ Admin Functions :-
 		
 		
 
-Prerequisites
+**Prerequisites**
 
 	The Following are the prerequisites for Installation of online salon management system project on
 	localhost.
@@ -119,7 +119,7 @@ Prerequisites
 	Make sure you have a Composer installed on your system.
 		
 
-How to Install
+**How to Install**
 
 	Individual modules can be started or stopped on the XAMPP Control Panel through the corresponding buttons 
 	under ‘Actions’(Apache, MySQL).
